@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32"
+    href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | QR code component</title>
+
+    <link ref="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet">
+      <style>
+          html{
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    min-width: 100vh;
+}
+body{
+    background-color: hsl(212,45%,89%);
+    font-family: 'Outfit',sans-serif;
+    width: 100;
+    min-width: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+p{
+  font-size: 15px;
+  color: hsl(220,15%,55%);
+  font-weight: 400;  
+}
+h1{
+    font-size: 22px;
+    color: hsl(218,44%,22%);
+    font-weight: 700;    
+}
+main{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 15.6rem;
+    padding:1rem 1rem 1.5rem 1rem;
+    background-color: hsl(0,0%,100%);
+    transition: box-shadow .5s;
+}
+main:hover{
+    box-shadow: 0px 11px 39px 9px hsl(210, 30%, 78%);
+}
+main img{
+    width:250px;
+    text-align: center;
+}
+footer{
+  text-align: center;
+  width: 250px;
+}
+
+
+
+      </style>
+
+
+  </head>
+  <body>
+    <main>
+      <img id="qr-code" src="/images/image-qr-code.png" alt="QR code">
+      <h1>Improve your front-end skills by building projects</h1>
+      <p> Scan the QR code to visit Frontend mentor and take your coding skills to the next level</p>
+    </main>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank">Frontend Mentor</a>.<br>
+      Coded by <a href="/">Bhushan Pagare</a>.
+    </footer>
+
+  </body>
+</html>

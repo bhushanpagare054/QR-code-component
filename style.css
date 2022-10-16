@@ -1,0 +1,42 @@
+html{
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    min-width: 100vh;
+}
+body{
+    background-color: hsl(212,45%,89%);
+    font-family: 'Outfit',sans-serif;
+    width: 100;
+    min-width: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+p{
+  font-size: 15px;
+  color: hsl(220,15%,55%);
+  font-weight: 400;  
+}
+h1{
+    font-size: 22px;
+    color: hsl(218,44%,22%);
+    font-weight: 700;    
+}
+main{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 15.6rem;
+    padding:1rem 1rem 1.5rem 1rem;
+    background-color: hsl(0,0%,100%);
+    transition: box-shadow .5s;
+}
+main:hover{
+    box-shadow: 0px 11px 39px 9px hsl(210, 30%, 78%);
+}
+main img{
+    width:250px;
+    text-align: center;
+}
